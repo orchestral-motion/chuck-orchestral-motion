@@ -13,6 +13,8 @@ for( int i; i < list.cap(); i++ )
 {
     chout <= i <= ": " <= list[i] <= IO.newline();
 }
+
+out.dest("127.0.0.1", 10000);
 serial.open(1, SerialIO.B9600, SerialIO.ASCII);
 
 (1.0/24.0)::second => dur RESOLUTION;
